@@ -1,5 +1,5 @@
 # tf2_custom
-repo for all the stuff that i use in tf2. bless valve for making the game so customisable.
+repo for all the stuff that i use in tf2. bless valve for making the game so customisable. all credit and much respect to authors listed below, all i did was glue the vote hud addons together and add my own customisations. licenses for each project found on respective githubs.
 
 # uses
 - [flawhud](https://github.com/CriticalFlaw/flawhud) with all the bells and whistles enabled - by criticalflaw
