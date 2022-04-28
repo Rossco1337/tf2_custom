@@ -1,7 +1,6 @@
 #base "../../resource/preload.res"
 #base "../../resource/tools.res"
 #base "../../resource/links.res"
-#base "../../resource/support.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -175,10 +174,30 @@
 			"wide"		"o1.6"
 			"tall"		"f0"
 		}
-
-		"if_halloween"
+		
+		"if_halloween_0"
 		{
-//			"image"		"../console/title_scream_fortress_2017_widescreen"
+			"image"		"../console/title_team_halloween2011_widescreen"
+		}
+		"if_halloween_1"
+		{
+			"image"		"../console/title_team_halloween2012_widescreen"
+		}
+		"if_halloween_2"
+		{
+			"image"		"../console/title_team_halloween2013_widescreen"
+		}
+		"if_halloween_3"
+		{
+			"image"		"../console/title_team_halloween2014_widescreen"
+		}
+		"if_halloween_4"
+		{	
+			"image"		"../console/title_team_halloween2015_widescreen"
+		}
+		"if_halloween_5"
+		{	
+			"image"		"../console/title_scream_fortress_2017_widescreen"
 		}
 		"if_fullmoon"
 		{
@@ -186,7 +205,7 @@
 		}
 		"if_christmas"
 		{
-//			"image"		"../console/background_xmas2020_widescreen"
+			"image"		"../console/background_xmas2020_widescreen"
 		}
 	}
 
@@ -429,7 +448,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"Notifications_ShowButtonPanel"
-		"xpos"				"rs1-10"
+		"xpos"				"rs1-7"
 		"ypos"				"105"
 		"zpos"				"0"
 		"wide"				"20"
@@ -489,11 +508,11 @@
 			"armedFgColor_override"		"218 165 32 255"
 		}
 	}
-	
-	"HomeServerButton"
+
+	"MOTD_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"HomeServerButton"
+		"fieldName"		"MOTD_ShowButtonPanel"
 		"xpos"			"-9"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -529,7 +548,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"250 27 45 255"
+			"armedFgColor_override"		"0 191 255 255"
 		}
 	}
 	
@@ -538,15 +557,15 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 
-		"pin_to_sibling"			"HomeServerButton"
-		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
+		"pin_to_sibling"			"MOTD_ShowButtonPanel"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 
 		"SubButton"
@@ -576,13 +595,13 @@
 			"armedFgColor_override"		"239 152 73 255"
 		}
 	}
-
-	"MOTD_ShowButtonPanel"
+	
+	"HomeServerButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"MOTD_ShowButtonPanel"
+		"fieldname"		"HomeServerButton"
 		"xpos"			"0"
-		"ypos"			"20"
+		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"20"
 		"tall"			"20"
@@ -590,7 +609,7 @@
 		"enabled"		"1"
 
 		"pin_to_sibling"			"QuestLogButton"
-		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 
 		"SubButton"
@@ -617,7 +636,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"0 191 255 255"
+			"armedFgColor_override"		"250 27 45 255"
 		}
 	}
 
@@ -853,12 +872,11 @@
 		"ControlName"		"CExImageButton"
 		"fieldName"			"VersionLabel"
 		"font"				"FontRegular12"
-		"labelText"			"FlawHUD v2021.0605"
-		"labelText_minmode"	"Streamer Mode Active!"
+		"labelText"			"FlawHUD v2022.0401"
+		"labelText_minmode"	"#FH_streamer_mode_active"
 		"xpos"				"rs1-5"
-		"xpos_minmode"		"r130"
 		"ypos"				"r13"
-		"ypos_minmode"		"r25"
+		"zpos"				"1"
 		"wide"				"130"
 		"tall"				"10"
 		"autoResize"		"0"
@@ -868,31 +886,10 @@
 		"paintbackground"	"0"
 		"sound_depressed"	""
 		"textAlignment"		"east"
-		"sound_released"	"UI/homie.wav"
+		"sound_released"	"UI/homie.mp3"
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
-	}
-
-	"StreamerInfoLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"StreamerInfoLabel"
-		"font"				"FontRegular10"
-		"labelText"			"To display player names, go to the HUD options above or disable minmode!"
-		"xpos"				"rs1-5"
-		"ypos"				"r13"
-		"wide"				"f0"
-		"tall"				"10"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"0"
-		"enabled"			"1"
-		"visible_minmode"	"1"
-		"paintbackground"	"0"
-		"sound_depressed"	""
-		"textAlignment"		"east"
-		"fgcolor_override"	"White"
 	}
 
 	"CharacterSetupButton"

@@ -87,12 +87,12 @@
 		"ypos"				"2"
 		"zpos"				"2"
 		"wide"				"290"
+		"wide_minmode"		"0"
 		"tall"				"210"
 		"visible"			"1"
 		"enabled"			"1"
 		"bgcolor_override"	"25 25 25 200"
 		"PaintBackgroundType"	"2"
-		"visible_minmode"		"0"
 
 		"pin_to_sibling"		"ServerBackground"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -250,12 +250,12 @@
 		"ypos"				"2"
 		"zpos"				"2"
 		"wide"				"290"
+		"wide_minmode"		"0"
 		"tall"				"210"
 		"visible"			"1"
 		"enabled"			"1"
 		"bgcolor_override"	"25 25 25 200"
 		"PaintBackgroundType"	"2"
-		"visible_minmode"		"0"
 
 		"pin_to_sibling"		"ServerTimeBackground"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -389,12 +389,12 @@
 		"xpos"				"-5"
 		"ypos"				"0"
 		"wide"				"290"
+		"wide_minmode"		"0"
 		"tall"				"11"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"visible_minmode"	"0"
 
 		"pin_to_sibling"		"ServerBackground"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -454,7 +454,7 @@
 	{
 		"ControlName"		"SectionedListPanel"
 		"fieldName"			"BluePlayerList"
-		"xpos"				"0"
+		"xpos"				"1"
 		"ypos"				"80"
 		"zpos"				"20"
 		"wide"				"288"
@@ -466,7 +466,7 @@
 		"tabPosition"		"0"
 		"autoresize"		"3"
 		"linespacing"		"16"
-		"fgcolor"			"blue"
+		"fgcolor"			"Blue"
 
 		if_mvm
 		{
@@ -507,12 +507,12 @@
 		"ypos"				"16"
 		"zpos"				"4"
 		"wide"				"500"
+		"wide_minmode"		"0"
 		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"visible_minmode"	"0"
 
 		"pin_to_sibling"		"StatsBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -531,9 +531,8 @@
 		"fieldName"			"StatsBG"
 		"xpos"				"0"
 		"ypos"				"2"
-		"ypos_minmode"		"80"
 		"zpos"				"2"
-		"wide"				"585"
+		"wide"				"581"
 		"tall"				"50"
 		"visible"			"1"
 		"enabled"			"1"
@@ -543,6 +542,7 @@
 		"pin_to_sibling"		"BluePlayerBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_minmode"	"ServerBackground"
 
 		if_mvm
 		{
@@ -563,12 +563,12 @@
 		"ypos"				"25"
 		"zpos"				"4"
 		"wide"				"500"
+		"wide_minmode"		"0"
 		"tall"				"20"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"visible_minmode"	"0"
 
 		"pin_to_sibling"		"StatsBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
@@ -584,8 +584,8 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ClassImage"
-		"xpos"				"525"
-		"ypos"				"295"
+		"xpos"				"0"
+		"ypos"				"-5"
 		"zpos"				"3"
 		"wide"				"45"
 		"tall"				"45"
@@ -593,6 +593,10 @@
 		"enabled"			"1"
 		"image"				"../hud/class_scoutred"
 		"scaleImage"		"1"
+
+		"pin_to_sibling"		"StatsBG"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
 		if_mvm
 		{
@@ -680,7 +684,7 @@
 		"font"				"FontRegular10"
 		"labelText"			"%mapname%"
 		"textAlignment"		"center"
-		"xpos"				"-55"
+		"xpos"				"-35"
 		"ypos"				"-5"
 		"zpos"				"5"
 		"wide"				"100"
@@ -697,7 +701,14 @@
 
 		if_mvm
 		{
-			"visible"			"0"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"545"
+			"textAlignment"		"east"
+
+			"pin_to_sibling"		"ServerLabel"
+			"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 	}
 	"HorizontalLine"
@@ -976,7 +987,7 @@
 			"font"				"FontBold37"
 			"labelText"			":"
 			"textAlignment"		"center"
-			"xpos"				"55"
+			"xpos"				"65"
 			"ypos"				"0"
 			"zpos"				"3"
 			"wide"				"20"
@@ -1004,10 +1015,10 @@
 			"font"				"FontBold37"
 			"labelText"			"%kills%"
 			"textAlignment"		"east"
-			"xpos"				"-20"
+			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"3"
-			"wide"				"60"
+			"wide"				"80"
 			"tall"				"50"
 			"autoResize"		"0"
 			"pinCorner"			"0"
@@ -1017,7 +1028,7 @@
 
 			"pin_to_sibling"		"KillsLabel"
 			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		}
 		"Kills2"
 		{
@@ -1029,17 +1040,14 @@
 			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"3"
-			"wide"				"60"
+			"wide"				"80"
 			"tall"				"50"
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"fgcolor"			"White"
-
-			"pin_to_sibling"		"Kills"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			"pin_to_sibling"	"Kills"
 		}
 
 		"DeathsLabel"
@@ -1066,10 +1074,10 @@
 			"font"				"FontBold37"
 			"labelText"			"%deaths%"
 			"textAlignment"		"west"
-			"xpos"				"-15"
+			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"3"
-			"wide"				"60"
+			"wide"				"80"
 			"tall"				"50"
 			"autoResize"		"0"
 			"pinCorner"			"0"
@@ -1078,7 +1086,7 @@
 			"fgcolor"			"White"
 
 			"pin_to_sibling"		"KillsLabel"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		}
 		"Deaths2"
@@ -1088,20 +1096,17 @@
 			"font"				"FontBold37"
 			"labelText"			"%deaths%"
 			"textAlignment"		"west"
-			"xpos"				"75"
+			"xpos"				"0"
 			"ypos"				"0"
 			"zpos"				"3"
-			"wide"				"60"
+			"wide"				"80"
 			"tall"				"50"
 			"autoResize"		"0"
 			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"fgcolor"			"White"
-
-			"pin_to_sibling"		"Deaths"
-			"pin_corner_to_sibling"	"PIN_TOPRIGHT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			"pin_to_sibling"	"Deaths"
 		}
 
 		"GameType"
@@ -1130,7 +1135,7 @@
 			"font"				"FontRegular10"
 			"labelText"			"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
-			"xpos"				"120"
+			"xpos"				"140"
 			"ypos"				"2"
 			"zpos"				"3"
 			"wide"				"50"

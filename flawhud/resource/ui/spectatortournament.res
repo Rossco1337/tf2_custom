@@ -22,7 +22,7 @@
 		"team2_player_base_y"			"160"
 		"team2_player_delta_x"			"0"
 		"team2_player_delta_y"			"22"
-
+		
 		"playerpanels_kv"
 		{
 			"visible"			"0"
@@ -138,6 +138,7 @@
 				"tall"				"f0"
 				"visible"			"1"
 				"font"				"FontRegular10"
+				"font_minmode"		"FontIcons10"
 				"fgcolor"			"245 245 245 200"
 				"labelText"			"%playername%"
 				"textAlignment"		"west"
@@ -159,6 +160,7 @@
 				"tall"				"f0"
 				"visible"			"1"
 				"font"				"FontRegular10"
+				"font_minmode"		"FontIcons10"
 				"fgcolor"			"ShadowBlack"
 				"labelText"			"%playername%"
 				"textinsetx"		"6"
@@ -180,6 +182,7 @@
 				"tall"				"f0"
 				"visible"			"1"
 				"font"				"FontRegular10"
+				"font_minmode"		"FontIcons10"
 				"fgcolor"			"245 245 245 200"
 				"labelText"			"%playername%"
 				"textinsetx"		"6"
@@ -201,6 +204,7 @@
 				"tall"				"f0"
 				"visible"			"1"
 				"font"				"FontRegular10"
+				"font_minmode"		"FontIcons10"
 				"fgcolor"			"ShadowBlack"
 				"labelText"			"%playername%"
 				"textinsetx"		"6"

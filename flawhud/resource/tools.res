@@ -145,7 +145,7 @@
 			"tall"					"26"
 			"visible"				"1"
 			"enabled"				"1"
-			"labeltext"				"Reload HUD"
+			"labeltext"				"#FH_reload_hud"
 			"command"				"engine vgui_cache_res_files 0;hud_reloadscheme"
 			"actionsignallevel"		"2"
 			"font"					"FontBold12"
@@ -169,7 +169,7 @@
 			"tall"					"26"
 			"visible"				"1"
 			"enabled"				"1"
-			"labeltext"				"Streamer Mode"
+			"labeltext"				"#FH_streamer_mode"
 			"command"				"engine toggle cl_hud_minmode;toggle mat_aaquality"
 			"actionsignallevel"		"2"
 			"font"					"FontBold12"
@@ -182,19 +182,19 @@
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
 		
-		"ClosedCaptionsON"
+		"CaptionsToggle"
 		{
 			"ControlName"			"CExImageButton"
-			"fieldname"				"ClosedCaptionsON"
+			"fieldname"				"CaptionsToggle"
 			"xpos"					"0"
-			"ypos"					"-30"
+			"ypos"					"5"
 			"zpos"					"16"
 			"wide"					"130"
 			"tall"					"26"
 			"visible"				"1"
 			"enabled"				"1"
-			"labeltext"				"Captions ON"
-			"command"				"engine closecaption 1;cc_subtitles 0;cc_lang english;cc_predisplay_time 0;cc_emit #subtitles0"
+			"labeltext"				"#FH_toggle_captions"
+			"command"				"engine toggle closecaption"
 			"actionsignallevel"		"2"
 			"font"					"FontBold12"
 			"textAlignment"			"center"
@@ -202,96 +202,8 @@
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
 			"pin_to_sibling"		"ReloadScheme"
-		}
-		
-		"ClosedCaptionsOFF"
-		{
-			"ControlName"			"CExImageButton"
-			"fieldname"				"ClosedCaptionsOFF"
-			"xpos"					"5"
-			"ypos"					"0"
-			"zpos"					"16"
-			"wide"					"130"
-			"tall"					"26"
-			"visible"				"1"
-			"enabled"				"1"
-			"labeltext"				"Captions OFF"
-			"command"				"engine closecaption 0"
-			"actionsignallevel"		"2"
-			"font"					"FontBold12"
-			"textAlignment"			"center"
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-			
-			"pin_to_sibling"		"ClosedCaptionsON"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
-			"pin_to_sibling_corner" "PIN_TOPRIGHT"
-		}
-		
-		"SoundFix"
-		{
-			"ControlName"			"CExImageButton"
-			"fieldname"				"SoundFix"
-			"xpos"					"0"
-			"ypos"					"-30"
-			"zpos"					"16"
-			"wide"					"130"
-			"tall"					"26"
-			"visible"				"1"
-			"enabled"				"1"
-			"labeltext"				"Fix Sound Issues"
-			"command"				"engine snd_restart"
-			"actionsignallevel"		"2"
-			"font"					"FontBold12"
-			"textAlignment"			"center"
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-			"pin_to_sibling"		"ClosedCaptionsON"
-		}
-		
-		"InviliblePlayersFix"
-		{
-			"ControlName"			"CExImageButton"
-			"fieldname"				"InviliblePlayersFix"
-			"xpos"					"5"
-			"ypos"					"0"
-			"zpos"					"16"
-			"wide"					"130"
-			"tall"					"26"
-			"visible"				"1"
-			"enabled"				"1"
-			"labeltext"				"Fix Visual Issues"
-			"command"				"engine record fix;stop"
-			"actionsignallevel"		"2"
-			"font"					"FontBold12"
-			"textAlignment"			"center"
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-			
-			"pin_to_sibling"		"SoundFix"
-			"pin_corner_to_sibling" "PIN_TOPLEFT"
-			"pin_to_sibling_corner" "PIN_TOPRIGHT"
-		}
-		
-		"NetgraphToggle"
-		{
-			"ControlName"			"CExImageButton"
-			"fieldname"				"NetgraphToggle"
-			"xpos"					"0"
-			"ypos"					"-30"
-			"zpos"					"16"
-			"wide"					"130"
-			"tall"					"26"
-			"visible"				"1"
-			"enabled"				"1"
-			"labeltext"				"Net graph ON/OFF"
-			"command"				"engine toggle net_graph"
-			"actionsignallevel"		"2"
-			"font"					"FontBold12"
-			"textAlignment"			"center"
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-			"pin_to_sibling"		"SoundFix"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
 		
 		"MatchStatusToggle"
@@ -305,59 +217,177 @@
 			"tall"					"26"
 			"visible"				"1"
 			"enabled"				"1"
-			"labeltext"				"Match HUD ON/OFF"
+			"labeltext"				"#FH_toggle_match_hud"
 			"command"				"engine toggle tf_use_match_hud"
 			"actionsignallevel"		"2"
 			"font"					"FontBold12"
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
-			"pin_to_sibling"		"NetgraphToggle"
+			
+			"pin_to_sibling"		"CaptionsToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"
+		}
+		
+		"NetgraphToggle"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldname"				"NetgraphToggle"
+			"xpos"					"0"
+			"ypos"					"5"
+			"zpos"					"16"
+			"wide"					"130"
+			"tall"					"26"
+			"visible"				"1"
+			"enabled"				"1"
+			"labeltext"				"#FH_toggle_netgraph"
+			"command"				"engine toggle net_graph"
+			"actionsignallevel"		"2"
+			"font"					"FontBold12"
+			"textAlignment"			"center"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"pin_to_sibling"		"CaptionsToggle"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
 		
 		"ChatToggle"
 		{
 			"ControlName"			"CExImageButton"
 			"fieldname"				"ChatToggle"
-			"xpos"					"0"
-			"ypos"					"-30"
+			"xpos"					"5"
+			"ypos"					"0"
 			"zpos"					"16"
 			"wide"					"130"
 			"tall"					"26"
 			"visible"				"1"
 			"enabled"				"1"
-			"labeltext"				"Chat ON/OFF"
+			"labeltext"				"#FH_toggle_chat"
 			"command"				"engine toggle hud_saytext_time 10 0"
 			"actionsignallevel"		"2"
 			"font"					"FontBold12"
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
+			
 			"pin_to_sibling"		"NetgraphToggle"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
 		
-		"DamageLabel"
+		"SoundFix"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldname"				"SoundFix"
+			"xpos"					"0"
+			"ypos"					"5"
+			"zpos"					"16"
+			"wide"					"130"
+			"tall"					"26"
+			"visible"				"1"
+			"enabled"				"1"
+			"labeltext"				"#FH_fix_sound_issues"
+			"command"				"engine snd_restart"
+			"actionsignallevel"		"2"
+			"font"					"FontBold12"
+			"textAlignment"			"center"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"pin_to_sibling"		"NetgraphToggle"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}
+		
+		"InviliblePlayersFix"
+		{
+			"ControlName"			"CExImageButton"
+			"fieldname"				"InviliblePlayersFix"
+			"xpos"					"5"
+			"ypos"					"0"
+			"zpos"					"16"
+			"wide"					"130"
+			"tall"					"26"
+			"visible"				"1"
+			"enabled"				"1"
+			"labeltext"				"#FH_fix_visual_issues"
+			"command"				"engine record fix; stop"
+			"actionsignallevel"		"2"
+			"font"					"FontBold12"
+			"textAlignment"			"center"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"pin_to_sibling"		"SoundFix"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPRIGHT"
+		}
+		
+		"VolumeLabel"
 		{
 			"ControlName"			"CExLabel"
-			"fieldName"				"DamageLabel"
-			"xpos"					"10"
-			"ypos"					"-1"
+			"fieldName"				"VolumeLabel"
+			"xpos"					"0"
+			"ypos"					"5"
 			"wide"					"130"
 			"tall"					"11"
 			"autoResize"			"0"
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"labelText"				"Damage Color:"
+			"labelText"				"#FH_game_volume"
 			"font"					"FontBold12"
 			"textAlignment"			"center"
 			"fgcolor_override"		"White"
 			
-			"pin_to_sibling"		"ChatToggle"
-			"pin_corner_to_sibling"	"PIN_TOPLEFT"
-			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			"pin_to_sibling"		"SoundFix"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}
+		
+		"SoundSlider"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"SoundSlider"
+			"xpos"					"0"
+			"ypos"					"5"
+			"wide"					"130"
+			"tall"					"20"
+			"leftText"				"0"
+			"rightText"				"100"
+			"minvalue"				"0"
+			"maxvalue"				"100"
+			"cvar_name"				"volume"
+			"allowoutofrange"		"0"
+			
+			"pin_to_sibling"		"VolumeLabel"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}
+		
+		"DamageLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"DamageLabel"
+			"xpos"					"0"
+			"ypos"					"5"
+			"wide"					"130"
+			"tall"					"11"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"labelText"				"#FH_damage_color"
+			"font"					"FontBold12"
+			"textAlignment"			"center"
+			"fgcolor_override"		"White"
+			
+			"pin_to_sibling"		"InviliblePlayersFix"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
 		
 		"DamageWhite"
@@ -365,7 +395,7 @@
 			"ControlName"			"CExImageButton"
 			"fieldname"				"DamageWhite"
 			"xpos"					"-17"
-			"ypos"					"0"
+			"ypos"					"2"
 			"zpos"					"16"
 			"wide"					"15"
 			"tall"					"15"
@@ -386,7 +416,7 @@
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 			
 			"defaultFgColor_override"	"255 255 255 255"
-			"armedFgColor_override"		"128 128 128 255"
+			"armedFgColor_override"		"150 150 150 255"
 			"depressedFgColor_override"	"255 255 255 255"
 		}
 		
@@ -416,7 +446,7 @@
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
 			"defaultFgColor_override" 	"255 255 0 255"
-			"armedFgColor_override" 	"128 128 0 255"
+			"armedFgColor_override" 	"150 150 0 255"
 			"depressedFgColor_override" "255 255 0 255"
 		}
 		
@@ -446,7 +476,7 @@
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
 			"defaultFgColor_override" 	"255 0 0 255"
-			"armedFgColor_override" 	"128 0 0 255"
+			"armedFgColor_override" 	"150 0 0 255"
 			"depressedFgColor_override" "255 0 0 255"
 		}
 		
@@ -476,7 +506,7 @@
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
 			"defaultFgColor_override" 	"0 255 0 255"
-			"armedFgColor_override" 	"0 128 0 255"
+			"armedFgColor_override" 	"0 150 0 255"
 			"depressedFgColor_override" "0 255 0 255"
 		}
 		
@@ -506,7 +536,7 @@
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
 			"defaultFgColor_override" 	"0 255 255 255"
-			"armedFgColor_override" 	"0 128 128 255"
+			"armedFgColor_override" 	"0 150 150 255"
 			"depressedFgColor_override" "0 255 255 255"
 		}
 
@@ -536,7 +566,7 @@
 			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
 			"defaultFgColor_override" 	"255 0 255 255"
-			"armedFgColor_override" 	"128 0 128 255"
+			"armedFgColor_override" 	"150 0 150 255"
 			"depressedFgColor_override" "255 0 255 255"
 		}
 	}

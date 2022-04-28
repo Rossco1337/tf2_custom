@@ -299,7 +299,7 @@
 		"image"			"../sprites/obj_icons/icon_obj_4_neutral_locked"
 	}
 
-		"CPIconBlu5"
+	"CPIconBlu5"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CPIconBlu5"
@@ -404,6 +404,7 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_e"
 	}
+	
 	"CartBlue"
 	{
 		"ControlName"	"ImagePanel"
@@ -521,5 +522,50 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/cart_track_red_opaque"
+	}
+	"MainMenuButtonCasual"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainMenuButtonCasual"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/main_menu/main_menu_button_casual"
+	}
+	"MainMenuButtonCommunityServer"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainMenuButtonCommunityServer"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/main_menu/main_menu_button_community_server"
+	}
+	"MainMenuButtonCompetitive"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainMenuButtonCompetitive"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/main_menu/main_menu_button_competitive"
+	}
+	"MainMenuButtonMvM"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainMenuButtonMvM"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/main_menu/main_menu_button_mvm"
+	}
+	"MenuThumbMissing"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MenuThumbMissing"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../vgui/maps/menu_thumb_Missing"
 	}
 }

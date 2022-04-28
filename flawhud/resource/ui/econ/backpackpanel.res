@@ -242,7 +242,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"NameFilterLabel"
 		"font"				"FontRegular12"
-		"labelText"			"Search:"
+		"labelText"			"#FH_search"
 		"textAlignment"		"west"
 		"xpos"				"c-287"
 		"ypos"				"35"
@@ -369,6 +369,7 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"	"1"
 		}
 	}
 
@@ -453,7 +454,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"Tip: Use the 'A' and 'D' keys to navigate between pages."
+		"labelText"		"#FH_backpack_tip"
 		"textAlignment"	"west"
 		
 		"pin_to_sibling"		"Wall"
