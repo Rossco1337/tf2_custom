@@ -29,7 +29,7 @@
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Blue"
+		"fillcolor"		"HUDBlueTeamSolid"
 
 		"if_hybrid"
 		{
@@ -58,7 +58,7 @@
 		"tall"			"21"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"DarkBlue"
+		"fillcolor"		"HUDBlueTeamDark"
 
 		"if_hybrid"
 		{
@@ -87,7 +87,7 @@
 		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Red"
+		"fillcolor"		"HUDRedTeamSolid"
 
 		"if_hybrid"
 		{
@@ -116,7 +116,7 @@
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"DarkRed"
+		"fillcolor"		"HUDRedTeamDark"
 
 		"if_hybrid"
 		{
@@ -155,7 +155,7 @@
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"FontBold22"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 
 		"if_hybrid"
 		{
@@ -186,7 +186,7 @@
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
 		"font"			"FontBold22"
-		"fgcolor"		"ShadowBlack"
+		"fgcolor"		"Black"
 		"pin_to_sibling"	"BlueScore"
 
 		"if_hybrid"
@@ -219,7 +219,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"FontBold22"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 
 		"if_hybrid"
 		{
@@ -251,7 +251,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
 		"font"			"FontBold22"
-		"fgcolor"		"ShadowBlack"
+		"fgcolor"		"Black"
 		"pin_to_sibling"	"RedScore"
 
 		"if_hybrid"
@@ -321,7 +321,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"FontRegular12"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 
 		"if_hybrid"
 		{

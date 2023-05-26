@@ -34,7 +34,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 		"proportionaltoparent"	"1"
 	}
 	"CountdownLabelShadow"
@@ -54,7 +54,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"ShadowBlack"
+		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
 	}
 
@@ -213,8 +213,8 @@
 		"xpos"				"c-40"
 		"ypos"				"0"
 		"zpos"				"2"
-		"wide"				"90"
-		"tall"				"80"
+		"wide"				"80"
+		"tall"				"100"
 		"visible"			"0"
 		"enabled"			"1"
 		"delta_item_x"			"25"
@@ -236,13 +236,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"FontBold18"
-			"fgcolor"		"White"
-			"xpos"			"15"
+			"font"			"FontBold20"
+			"fgcolor"		"TanLight"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"50"
-			"tall"			"18"
+			"wide"			"80"
+			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"
@@ -250,10 +250,8 @@
 
 			if_match
 			{
-				"xpos"			"0"
-				"ypos"			"7"
-				"wide"			"80"
-				"font"			"FontBold14"
+				"ypos"		"4"
+				"font"		"FontBold14"
 			}
 		}
 	}
@@ -276,11 +274,11 @@
 
 		"team1_grow_dir" 	"west"
 		"team1_base_x"		"c-45"
-		"team1_max_expand"	"220"
+		"team1_max_expand"	"250"
 
 		"team2_grow_dir"	"east"
 		"team2_base_x"		"c45"
-		"team2_max_expand"	"220"
+		"team2_max_expand"	"250"
 
 		"playerpanels_kv"
 		{
@@ -290,10 +288,10 @@
 			"zpos"			"1"
 			"proportionaltoparent"	"1"
 
-			"color_portrait_bg_red"				"158 64 61 255"
-			"color_portrait_bg_blue"			"72 112 125 255"
-			"color_portrait_bg_red_dead"		"102 48 46 255"
-			"color_portrait_bg_blue_dead"		"46 73 82 255"
+			"color_portrait_bg_red"				"HUDRedTeamSolid"
+			"color_portrait_bg_blue"			"HUDBlueTeamSolid"
+			"color_portrait_bg_red_dead"		"HUDRedTeamDark"
+			"color_portrait_bg_blue_dead"		"HUDBlueTeamDark"
 			"color_bar_health_high"				"Overheal"
 			"color_bar_health_med"				"Overheal"
 			"percentage_health_med"				"0.5"
@@ -354,7 +352,7 @@
 				"ypos"			"19"
 				"zpos"			"5"
 				"wide"			"f0"
-				"tall"			"3"
+				"tall"			"2"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -374,7 +372,7 @@
 				"ypos"			"19"
 				"zpos"			"6"
 				"wide"			"f0"
-				"tall"			"3"
+				"tall"			"2"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -414,7 +412,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"FontBold9"
+				"font"			"FontBold14Outline"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -495,7 +493,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"DarkBlueTeamBorder"
-			"bgcolor_override"	"Blue"
+			"bgcolor_override"	"HUDBlueTeamSolid"
 		}
 		"BlueTeamImage"
 		{
@@ -555,7 +553,7 @@
 			"tall"			"39"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override"		"DarkBlue"
+			"bgcolor_override"		"HUDBlueTeamDark"
 		}
 		"BluePlayerList"
 		{
@@ -635,7 +633,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"DarkRedTeamBorder"
-			"bgcolor_override"	"Red"
+			"bgcolor_override"	"HUDRedTeamSolid"
 		}
 		"RedTeamImage"
 		{
@@ -695,7 +693,7 @@
 			"tall"			"39"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"DarkRed"
+			"bgcolor_override"	"HUDRedTeamDark"
 		}
 		"RedPlayerList"
 		{

@@ -48,7 +48,7 @@
 		"tall"	 			"35"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"Blue"
+		"fillcolor"			"HUDBlueTeamSolid"
 
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
@@ -67,7 +67,7 @@
 		"tall"	 			"36"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"Red"
+		"fillcolor"			"HUDRedTeamSolid"
 
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"
@@ -80,7 +80,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"TargetNameLabel"
 		"font"				"FontRegular12"
-		"font_minmode"		"FontIcons12"
+		"font_minmode"		"SmallerIcons"
 		"xpos"				"-20"
 		"ypos"				"35"
 		"zpos"				"1"
@@ -97,7 +97,7 @@
 		"ControlName"		"Label"
 		"fieldName"			"TargetNameLabelShadow"
 		"font"				"FontRegular12"
-		"font_minmode"		"FontIcons12"
+		"font_minmode"		"SmallerIcons"
 		"xpos"				"-1"
 		"ypos"				"-1"
 		"zpos"				"1"
@@ -107,7 +107,7 @@
 		"enabled"			"1"
 		"labelText"			"%targetname%"
 		"textAlignment"		"west"
-		"fgcolor_override"	"ShadowBlack"
+		"fgcolor_override"	"Black"
 		"pin_to_sibling"	"TargetNameLabel"
 	}
 
@@ -231,7 +231,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"icon"			"obj_status_sentrygun_1"
-			"drawcolor"		"White"
+			"drawcolor"		"TanLight"
 			"scaleImage"	"1"
 		}
 		"MoveableSymbolIcon"
@@ -246,7 +246,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/eng_sel_item_movable"
-			"drawcolor"		"White"
+			"drawcolor"		"TanLight"
 			"scaleImage"	"1"
 		}
 

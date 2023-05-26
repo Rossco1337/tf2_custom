@@ -17,8 +17,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"DamageAccountValue"
-		"xpos"					"c-110"
-		"ypos"					"c70"
+		"xpos"					"10"
+		"ypos"					"r75"
 		"zpos"					"2"
 		"wide"					"90"
 		"tall"					"20"
@@ -44,7 +44,7 @@
 		"labelText"				"%metal%"
 		"textAlignment"			"west"
 		"font"					"FontBold22"
-		"fgcolor"				"ShadowBlack"
+		"fgcolor"				"Black"
 		"pin_to_sibling"		"DamageAccountValue"
 	}
 }

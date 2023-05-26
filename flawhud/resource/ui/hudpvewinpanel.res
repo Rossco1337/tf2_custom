@@ -35,7 +35,7 @@
 		"PaintBackgroundType" "0"
 		"paintborder"	"1"
 		"border"		"DarkBlueTeamBorder"
-		"bgcolor_override"	"Blue"
+		"bgcolor_override"	"HUDBlueTeamSolid"
 
 		"WinningTeamLabel"
 		{
@@ -52,7 +52,7 @@
 			"enabled"		"1"
 			"labelText"		"#Winpanel_PVE_Evil_Wins"
 			"textAlignment"	"Center"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 		}
 	}
 

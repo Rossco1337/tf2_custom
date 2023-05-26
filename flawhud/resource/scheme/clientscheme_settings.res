@@ -11,51 +11,51 @@ Scheme
 		ReplayBrowser.Button.ArmedBgColor				"HudWhite"
 		ReplayBrowser.Button.DepressedBgColor			"HudBlack"
 		ReplayBrowser.CollectionTitle.FgColor			"LightRed"
-		ReplayBrowser.Warning.FgColor					"White"
+		ReplayBrowser.Warning.FgColor					"LightRed"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor	"TransparentYellow"
 		ReplayBrowser.Search.BgColor					"Black"
-		ReplayBrowser.Search.FgColor					"White"
+		ReplayBrowser.Search.FgColor					"TanLight"
 		Replay.RenderDialog.BgColor						"DarkGrey"
 
 		Econ.Dialog.BgColor						"Blank"
 		Econ.Button.BgColor						"HudBlack"
-		Econ.Button.FgColor						"White"
+		Econ.Button.FgColor						"HudWhite"
 		Econ.Button.ArmedBgColor				"HudWhite"
-		Econ.Button.ArmedFgColor				"Black"
+		Econ.Button.ArmedFgColor				"HudBlack"
 		Econ.Button.DepressedBgColor			"HudBlack"
 		Econ.Button.DepressedFgColor			"Black"
-		Econ.Button.PresetDefaultColorFg		"White"
+		Econ.Button.PresetDefaultColorFg		"TanLight"
 		Econ.Button.PresetArmedColorFg			"Black"
-		Econ.Button.PresetDepressedColorFg		"White"
+		Econ.Button.PresetDepressedColorFg		"TanLight"
 		Econ.Button.PresetDefaultColorBg		"Yellow"
 		Econ.Button.PresetArmedColorBg			"HudWhite"
 		Econ.Button.PresetDepressedColorBg		"HudWhite"
-		Econ.Button.Border.Default				"White"
-		Econ.Button.Border.Armed				"Black"
+		Econ.Button.Border.Default				"TanDark"
+		Econ.Button.Border.Armed				"TanLight"
 
 		Border.Bright							"Blank"
 		Border.Dark								"Black"
 		Border.Selection						"Gray"
 
-		Button.TextColor						"White"
+		Button.TextColor						"TanLight"
 		Button.BgColor							"HudBlack"
-		Button.ArmedTextColor					"Black"
-		Button.ArmedBgColor						"HudWhite"
-		Button.SelectedTextColor				"Black"
-		Button.SelectedBgColor					"HudWhite"
-		Button.DepressedTextColor				"Black"
-		Button.DepressedBgColor					"HudBlack"
+		Button.ArmedTextColor					"TanLight"
+		Button.ArmedBgColor						"TanDark"
+		Button.SelectedTextColor				"TanDark"
+		Button.SelectedBgColor					"TanLight"
+		Button.DepressedTextColor				"TanDark"
+		Button.DepressedBgColor					"TanDarker"
 
-		CheckButton.TextColor					"White"
-		CheckButton.SelectedTextColor			"White"
+		CheckButton.TextColor					"TanLight"
+		CheckButton.SelectedTextColor			"TanLight"
 		CheckButton.BgColor						"TransparentBlack"
-		CheckButton.Border1  					"White"		// the left checkbutton border
-		CheckButton.Border2  					"White"		// the right checkbutton border
-		CheckButton.Check						"White"		// color of the check itself
-		CheckButton.HighlightFgColor			"White"
+		CheckButton.Border1  					"TanLight"		// the left checkbutton border
+		CheckButton.Border2  					"TanLight"		// the right checkbutton border
+		CheckButton.Check						"TanLight"		// color of the check itself
+		CheckButton.HighlightFgColor			"TanLight"
 
-		ComboBoxButton.ArrowColor				"White"
-		ComboBoxButton.ArmedArrowColor			"White"
+		ComboBoxButton.ArrowColor				"TanDark"
+		ComboBoxButton.ArmedArrowColor			"TanLight"
 		ComboBoxButton.BgColor					"Blank"
 		ComboBoxButton.DisabledBgColor			"Blank"
 
@@ -83,9 +83,9 @@ Scheme
 		GraphPanel.BgColor						"TransparentBlack"
 
 		Label.TextDullColor						"TanDark"
-		Label.TextColor							"White"
-		Label.TextBrightColor					"White"
-		Label.SelectedTextColor					"White"
+		Label.TextColor							"TanLight"
+		Label.TextBrightColor					"TanLight"
+		Label.SelectedTextColor					"TanLight"
 		Label.BgColor							"Blank"
 		Label.DisabledFgColor1					"Blank"
 		Label.DisabledFgColor2					"150 150 150 255"
@@ -93,11 +93,11 @@ Scheme
 		ListPanel.TextColor						"Orange"
 		ListPanel.BgColor						"TransparentBlack"
 		ListPanel.SelectedTextColor				"Black"
-		ListPanel.SelectedBgColor				"Red"
-		ListPanel.SelectedOutOfFocusBgColor		"Red"
+		ListPanel.SelectedBgColor				"HUDRedTeamSolid"
+		ListPanel.SelectedOutOfFocusBgColor		"HUDRedTeamSolid"
 		ListPanel.EmptyListInfoTextColor		"Orange"
 
-		Menu.TextColor							"White"
+		Menu.TextColor							"TanLight"
 		Menu.BgColor							"DarkGrey"
 		Menu.ArmedTextColor						"TanDark"
 		Menu.ArmedBgColor						"DarkGrey"
@@ -113,8 +113,8 @@ Scheme
 		ProgressBar.FgColor						"ProgressOffWhite"
 		ProgressBar.BgColor						"ProgressBackground"
 
-		CircularProgressBar.FgColor				"White"
-		CircularProgressBar.BgColor				"White"
+		CircularProgressBar.FgColor				"TanLight"
+		CircularProgressBar.BgColor				"TanDark"
 
 		"BuildingHealthBar.BgColor"				"HealthBgGrey"
 		"BuildingHealthBar.Health"				"ProgressOffWhite"
@@ -130,7 +130,7 @@ Scheme
 		RichText.TextColor						"Gray"
 		RichText.BgColor						"Blank"
 		RichText.SelectedTextColor				"Gray"
-		RichText.SelectedBgColor				"Red"
+		RichText.SelectedBgColor				"HUDRedTeamSolid"
 
 		ScrollBarButton.FgColor					"Gray"
 		ScrollBarButton.BgColor					"Blank"
@@ -149,7 +149,7 @@ Scheme
 		SectionedListPanel.BrightTextColor		"Orange"
 		SectionedListPanel.BgColor				"TransparentLightBlack"
 		SectionedListPanel.SelectedTextColor	"Black"
-		SectionedListPanel.SelectedBgColor		"Red"
+		SectionedListPanel.SelectedBgColor		"HUDRedTeamSolid"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
 
@@ -172,7 +172,7 @@ Scheme
 		ToggleButton.SelectedTextColor			"Yellow"
 
 		Tooltip.TextColor						"TransparentBlack"
-		Tooltip.BgColor							"Red"
+		Tooltip.BgColor							"HUDRedTeamSolid"
 
 		TreeView.BgColor						"TransparentBlack"
 

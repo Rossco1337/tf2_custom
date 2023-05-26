@@ -52,7 +52,7 @@
 		"ControlName"			"ImagePanel"
 		"fieldName"				"Background"
 		"xpos"					"c-40"
-		"ypos"					"0"
+		"ypos"					"2"
 		"zpos"					"0"
 		"wide"					"80"
 		"tall"					"25"
@@ -70,7 +70,7 @@
 		"zpos"					"1"
 		"wide"					"80"
 		"tall"					"8"
-		"fillcolor"				"Blue"
+		"fillcolor"				"HUDBlueTeamSolid"
 		"scaleimage"			"1"
 		"proportionaltoparent"	"1"
 	}
@@ -84,7 +84,7 @@
 		"zpos"					"5"
 		"wide"					"40"
 		"tall"					"8"
-		"fillcolor"				"Red"
+		"fillcolor"				"HUDRedTeamSolid"
 		"scaleimage"			"1"
 		"proportionaltoparent"	"1"
 	}

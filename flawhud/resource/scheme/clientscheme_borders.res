@@ -13,7 +13,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 			}
@@ -21,7 +21,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 			}
@@ -29,7 +29,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 			}
@@ -37,7 +37,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 			}
@@ -50,17 +50,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "2 0"
 				}
 			}
@@ -68,17 +68,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "2 0"
 				}
 			}
@@ -86,17 +86,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "2 0"
 				}
 			}
@@ -104,22 +104,99 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "2 0"
 				}
 			}
 		}
-
+		
+		DarkBorderThick
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "TanDark"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "TanDark"
+					"offset" "2 0"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "TanDark"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "TanDark"
+					"offset" "2 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "TanDark"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "TanDark"
+					"offset" "2 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "TanDark"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "TanDark"
+					"offset" "2 0"
+				}
+			}
+		}
+		
 		MenuBorder
 		{
 			"inset" "0 0 0 0"
@@ -197,32 +274,32 @@ Scheme
 			{
 				"1"
 				{
-					"color" "DarkBlue"
+					"color" "HUDBlueTeamDark"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "DarkBlue"
+					"color" "HUDBlueTeamDark"
 					"offset" "0 0"
 				}
 				"3"
 				{
-					"color" "DarkBlue"
+					"color" "HUDBlueTeamDark"
 					"offset" "0 0"
 				}
 				"4"
 				{
-					"color" "DarkBlue"
+					"color" "HUDBlueTeamDark"
 					"offset" "0 0"
 				}
 				"5"
 				{
-					"color" "DarkBlue"
+					"color" "HUDBlueTeamDark"
 					"offset" "0 0"
 				}
 				"6"
 				{
-					"color" "DarkBlue"
+					"color" "HUDBlueTeamDark"
 					"offset" "0 0"
 				}
 			}
@@ -235,32 +312,32 @@ Scheme
 			{
 				"1"
 				{
-					"color" "DarkRed"
+					"color" "HUDRedTeamDark"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "DarkRed"
+					"color" "HUDRedTeamDark"
 					"offset" "0 0"
 				}
 				"3"
 				{
-					"color" "DarkRed"
+					"color" "HUDRedTeamDark"
 					"offset" "0 0"
 				}
 				"4"
 				{
-					"color" "DarkRed"
+					"color" "HUDRedTeamDark"
 					"offset" "0 0"
 				}
 				"5"
 				{
-					"color" "DarkRed"
+					"color" "HUDRedTeamDark"
 					"offset" "0 0"
 				}
 				"6"
 				{
-					"color" "DarkRed"
+					"color" "HUDRedTeamDark"
 					"offset" "0 0"
 				}
 			}
@@ -1015,17 +1092,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "2 2"
 				}
 				"3"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "3 3"
 				}
 			}
@@ -1033,17 +1110,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "185 185 185 255"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "185 185 185 255"
+					"color" "TanLight"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "185 185 185 255"
+					"color" "TanLight"
 					"offset" "2 2"
 				}
 			}
@@ -1051,17 +1128,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "1 2"
 				}
 				"3"
 				{
-					"color" "White"
+					"color" "TanLight"
 					"offset" "2 3"
 				}
 			}
@@ -1069,17 +1146,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "185 185 185 255"
+					"color" "TanLight"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "185 185 185 255"
+					"color" "TanLight"
 					"offset" "1 2"
 				}
 				"3"
 				{
-					"color" "185 185 185 255"
+					"color" "TanLight"
 					"offset" "2 3"
 				}
 			}

@@ -26,25 +26,25 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"0"
-		"wide"					"398"
+		"wide"					"380"
 		"tall"					"25"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"0 0 0 200"
+		"fillcolor"				"HudBlack"
 	}
 
 	"TeamNameRedBG"
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"TeamNameBG"
-		"xpos"					"c33"
+		"xpos"					"c40"
 		"ypos"					"0"
 		"zpos"					"0"
 		"wide"					"f0"
 		"tall"					"25"
 		"visible"				"1"
 		"enabled"				"1"
-		"fillcolor"				"0 0 0 200"
+		"fillcolor"				"HudBlack"
 	}
 
 	"TeamNameBlu"
@@ -62,7 +62,7 @@
 		"textAlignment"			"east"
 		"visible"				"1"
 		"auto_wide_tocontents"	"1"
-		"fgcolor_override"		"Blue"
+		"fgcolor_override"		"HUDBlueTeamSolid"
 
 		"pin_to_sibling"		"TeamScoreBluBG"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -82,7 +82,7 @@
 		"textinsetx"			"20"
 		"textAlignment"			"east"
 		"visible"				"1"
-		"fgcolor_override"		"ShadowBlack"
+		"fgcolor_override"		"Black"
 		"auto_wide_tocontents"	"1"
 
 		"pin_to_sibling"		"TeamNameBlu"
@@ -94,12 +94,12 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"TeamScoreBluBG"
-		"xpos"					"-28"
+		"xpos"					"-40"
 		"ypos"					"0"
 		"zpos"					"0"
 		"wide"					"25"
 		"tall"					"25"
-		"fillcolor"				"Blue"
+		"fillcolor"				"HUDBlueTeamSolid"
 
 		"pin_to_sibling"		"CenterAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
@@ -119,7 +119,6 @@
 		"labelText"				"%blueteamscore%"
 		"textAlignment"			"center"
 		"visible"				"1"
-		"fgcolor_override"		"White"
 
 		"pin_to_sibling"		"TeamScoreBluBG"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
@@ -138,7 +137,7 @@
 		"labelText"				"%blueteamscore%"
 		"textAlignment"			"center"
 		"visible"				"1"
-		"fgcolor_override"		"ShadowBlack"
+		"fgcolor_override"		"Black"
 
 		"pin_to_sibling"		"TeamScoreBlu"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -169,7 +168,6 @@
 		"labelText"				"%redteamscore%"
 		"textAlignment"			"center"
 		"visible"				"1"
-		"fgcolor_override"		"White"
 
 		"pin_to_sibling"		"TeamScoreRedBG"
 		"pin_corner_to_sibling"	"PIN_CENTER_TOP"
@@ -189,7 +187,7 @@
 		"labelText"				"%redteamscore%"
 		"textAlignment"			"center"
 		"visible"				"1"
-		"fgcolor_override"		"ShadowBlack"
+		"fgcolor_override"		"Black"
 
 		"pin_to_sibling"		"TeamScoreRed"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -210,7 +208,7 @@
 		"textinsetx"			"20"
 		"textAlignment"			"west"
 		"visible"				"1"
-		"fgcolor_override"		"Red"
+		"fgcolor_override"		"HUDRedTeamSolid"
 		"auto_wide_tocontents"	"1"
 
 		"pin_to_sibling"		"TeamScoreRedBG"
@@ -232,7 +230,7 @@
 		"textAlignment"			"west"
 		"visible"				"1"
 		"auto_wide_tocontents"	"1"
-		"fgcolor_override"		"ShadowBlack"
+		"fgcolor_override"		"Black"
 
 		"pin_to_sibling"		"TeamNameRed"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -243,12 +241,12 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"TeamScoreRedBG"
-		"xpos"					"-28"
+		"xpos"					"-40"
 		"ypos"					"0"
 		"zpos"					"0"
 		"wide"					"25"
 		"tall"					"25"
-		"fillcolor"				"Red"
+		"fillcolor"				"HUDRedTeamSolid"
 		"pin_to_sibling"		"CenterAnchor"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"

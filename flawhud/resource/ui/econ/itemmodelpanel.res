@@ -64,6 +64,7 @@
 			"fov"			"54"
 			"start_framed"	"1"
 			"disable_manipulation"	"1"
+			"inventory_image_type"  "1"
 
 			"model"
 			{
@@ -90,7 +91,7 @@
 			"enabled"		"1"
 			"labelText"		"%itemname%"
 			"textAlignment"	"south"
-			"fgcolor"		"White"
+			"fgcolor"		"TanLight"
 			"centerwrap"	"1"
 		}
 

@@ -71,7 +71,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"			"BarChartLabelA"
-				"font"				"ScoreboardMediumSmall"
+				"font"				"ScoreboardSmall"
 				"labelText"			"#StatSummary_StatTitle_MostPoints"
 				"textAlignment"		"east"
 				"xpos"				"c-282"
@@ -88,7 +88,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"			"BarChartLabelB"
-				"font"				"ScoreboardMediumSmall"
+				"font"				"ScoreboardSmall"
 				"labelText"			"#StatSummary_StatTitle_TotalPlaytime"
 				"textAlignment"		"west"
 				"xpos"				"c-127"
@@ -105,7 +105,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"			"OverallRecordLabel"
-				"font"				"ScoreboardMediumSmall"
+				"font"				"ScoreboardSmall"
 				"labelText"			"#StatSummary_Label_AsAnyClass"
 				"textAlignment"		"west"
 				"xpos"				"c+124"
@@ -208,7 +208,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"bgcolor_override"		"MenuShader"
+			"bgcolor_override"		"TransparentLightBlack"
 			"PaintBackgroundType"	"2"
 		}
 		"AveragesLabel"
@@ -1382,7 +1382,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"MenuShader"
+			"bgcolor_override"	"TransparentLightBlack"
 			"PaintBackgroundType"	"2"
 
 			"pin_to_sibling"		"AveragesBG"
@@ -1416,8 +1416,8 @@
 			"xpos"			"c+124"
 			"ypos"			"96"
 			"zpos"			"2"
-			"wide"			"167"
-			"tall"			"162"
+			"wide"			"170"
+			"tall"			"167"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -2096,7 +2096,7 @@
 		"Command"			"resetstatsbutton"
 		"font"				"HudFontSmallest"
 		"defaultBgColor_override"	"DarkGrey"
-		"armedBgColor_override"		"Red"
+		"armedBgColor_override"		"HUDRedTeamSolid"
 		"armedFgColor_override"		"HudWhite"
 	}
 	

@@ -51,7 +51,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%bluescore%"
 		"font"			"FontBold20"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 	"BlueScoreShadow"
 	{
@@ -67,7 +67,7 @@
 		"textAlignment"	"west"
 		"labelText"		"%bluescore%"
 		"font"			"FontBold20"
-		"fgcolor"		"ShadowBlack"
+		"fgcolor"		"Black"
 		"pin_to_sibling"	"BlueScore"
 	}
 
@@ -85,7 +85,7 @@
 		"textAlignment"	"east"
 		"labelText"		"%redscore%"
 		"font"			"FontBold20"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 	"RedScoreShadow"
 	{
@@ -101,7 +101,7 @@
 		"textAlignment"	"east"
 		"labelText"		"%redscore%"
 		"font"			"FontBold20"
-		"fgcolor"		"ShadowBlack"
+		"fgcolor"		"Black"
 		"pin_to_sibling"	"RedScore"
 	}
 
@@ -121,7 +121,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"FontRegular11"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 	}
 
 	"PlayingToBG"

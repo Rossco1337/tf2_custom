@@ -148,17 +148,17 @@
 			"ControlName"	"Panel"
 			"fieldName"		"TopBorder"
 			"xpos"			"10"
-			"ypos"			"50"
+			"ypos"			"53"
 			"zpos"			"-1"
 			"wide"			"480"
-			"tall"			"5"
+			"tall"			"2"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 
 			"PaintBackgroundType" "0"
-			"bgcolor_override"	"White"
+			"bgcolor_override"	"TanLight"
 		}
 		"BottomBorder"
 		{
@@ -175,7 +175,7 @@
 			"enabled"		"0"
 
 			"PaintBackgroundType" "0"
-			"bgcolor_override"	"White"
+			"bgcolor_override"	"TanLight"
 		}
 		"LeftBorder"
 		{
@@ -192,7 +192,7 @@
 			"enabled"		"0"
 
 			"PaintBackgroundType" "0"
-			"bgcolor_override"	"White"
+			"bgcolor_override"	"TanLight"
 		}
 		"RightBorder"
 		{
@@ -209,7 +209,7 @@
 			"enabled"		"0"
 
 			"PaintBackgroundType" "0"
-			"bgcolor_override"	"White"
+			"bgcolor_override"	"TanLight"
 		}
 
 		"InnerBGPanel"
@@ -300,7 +300,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"White"
+			"bgcolor_override"	"TanLight"
 			"PaintBackgroundType"	"0"
 		}
 
@@ -607,11 +607,12 @@
 			"ypos"			"135"
 			"zpos"			"2"
 			"wide"			"130"
-			"tall"			"20"
+			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"wrap"			"1"
 		}
 
 		"UpgradeItemStatsLabel"
@@ -622,10 +623,10 @@
 			"labelText"		""
 			"textAlignment"	"north-west"
 			"xpos"			"30"
-			"ypos"			"160"
+			"ypos"			"180"
 			"zpos"			"2"
 			"wide"			"120"
-			"tall"			"105"
+			"tall"			"85"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
