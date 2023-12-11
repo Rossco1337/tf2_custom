@@ -3,7 +3,7 @@
 	"HomeServerButton"
 	{
 		"label"			"}"
-		"command"		"engine connect nyaruolev.tf2.host"
+		"command"		"engine connect nyaruolev.tf2.host; password nyaruolev2"
 		"tooltip"		"#FH_favorite_server"
 	}
 	"TF2SettingsButton"

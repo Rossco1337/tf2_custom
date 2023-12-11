@@ -1,8 +1,9 @@
-"#base"	"huditemeffectmeter.res"
+#base "huditemeffectmeter.res"
+
 "Resource/UI/HudItemEffectMeter_Cleaver.res"
 {
 	"HudItemEffectMeter"
 	{
-		"ypos"	"c110"
+		"ypos"				"c112"
 	}
 }

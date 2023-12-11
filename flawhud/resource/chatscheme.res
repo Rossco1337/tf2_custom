@@ -336,48 +336,53 @@ Scheme
 				"symbol"		"1"
 			}
 		}
-
+		
 		"ChatFont"
 		{
 			"1"
 			{
-				"name"			"Verdana"
-				"tall"			"12"
-				"weight"		"700"
-				"yres"			"480 599"
+				"name"			"Verdana Bold"
+				"tall"			"19"
+				"weight"		"400"
 				"dropshadow"	"1"
+				"antialias"		"1"
+				"yres"			"480 599"
 			}
 			"2"
 			{
-				"name"			"Verdana"
-				"tall"			"14"
-				"weight"		"700"
-				"yres"			"600 767"
+				"name"			"Verdana Bold"
+				"tall"			"19"
+				"weight"		"400"
 				"dropshadow"	"1"
+				"antialias"		"1"
+				"yres"			"600 767"
 			}
 			"3"
 			{
-				"name"			"Verdana"
-				"tall"			"15"
-				"weight"		"700"
-				"yres"			"768 1023"
+				"name"			"Verdana Bold"
+				"tall"			"19"
+				"weight"		"400"
 				"dropshadow"	"1"
+				"antialias"		"1"
+				"yres"			"768 1023"
 			}
 			"4"
 			{
-				"name"			"Verdana"
-				"tall"			"17"
-				"weight"		"700"
-				"yres"			"1024 1199"
+				"name"			"Verdana Bold"
+				"tall"			"19"
+				"weight"		"400"
 				"dropshadow"	"1"
+				"antialias"		"1"
+				"yres"			"1024 1199"
 			}
 			"5"
 			{
-				"name"			"Verdana"
-				"tall"			"22"
-				"weight"		"700"
-				"yres"			"1200 10000"
+				"name"			"Verdana Bold"
+				"tall"			"19"
+				"weight"		"400"
 				"dropshadow"	"1"
+				"antialias"		"1"
+				"yres"			"1200 10000"
 			}
 		}
 
